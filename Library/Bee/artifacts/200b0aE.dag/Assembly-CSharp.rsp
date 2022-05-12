@@ -350,6 +350,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scenes/FPSInput.cs"
 "Assets/Scenes/MouseLook.cs"
+"Assets/Scenes/RayShooter.cs"
 "Assets/Scenes/Spin.cs"
 -langversion:9.0
 

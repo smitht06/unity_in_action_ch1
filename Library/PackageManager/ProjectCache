@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637877724260000000
-    m_Hash: 2524645620
+      ticks: 637879493180000000
+    m_Hash: 2317464492
   m_LockFileStatus:
     m_FilePath: /Users/tony/Coding_Projects/unity_in_action_ch1/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637877724280000000
-    m_Hash: 2967833652
+      ticks: 637879493180000000
+    m_Hash: 1986415386
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -214,7 +214,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.13
+    version: 3.0.14
   - name: com.unity.ide.vscode
     version: 1.2.5
   - name: com.unity.editorcoroutines
@@ -246,12 +246,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.1
     nextVersion: 
-- packageId: com.unity.ide.rider@3.0.13
+- packageId: com.unity.ide.rider@3.0.14
   testable: 0
   isDirectDependency: 1
-  version: 3.0.13
+  version: 3.0.14
   source: 1
-  resolvedPath: /Users/tony/Coding_Projects/unity_in_action_ch1/Library/PackageCache/com.unity.ide.rider@3.0.13
+  resolvedPath: /Users/tony/Coding_Projects/unity_in_action_ch1/Library/PackageCache/com.unity.ide.rider@3.0.14
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -318,13 +318,13 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637837345400000000
+  datePublishedTicks: 637861245770000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 26f15837ac7ebf5038274dcc39e2b79da5fcdc93
+    revision: e6bfc84a08a0876a2c20ec2ee0883b5ece331dfd
     path: 
   unityLifecycle:
     version: 3.0.13
@@ -982,11 +982,13 @@ m_ResolvedPackages:
     - 1.7.5
     - 1.7.6
     - 1.7.7
+    - 1.7.8
     - 1.8.0-pre.1
     compatible:
     - 1.7.6
     - 1.7.7
-    verified: 1.7.7
+    - 1.7.8
+    verified: 1.7.8
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
