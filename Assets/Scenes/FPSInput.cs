@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponenint(typeof(CharactorController))]
+
+[RequireComponent(typeof(CharacterController))]
 [AddComponentMenu("Control Script/FPS Input")]
 public class FPSInput : MonoBehaviour
 {
