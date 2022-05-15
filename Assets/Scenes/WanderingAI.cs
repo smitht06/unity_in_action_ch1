@@ -12,6 +12,8 @@ namespace Scenes
         public float speed = 3.0f;
         public float obstacleRange = 5.0f;
         private bool isAlive;
+        [SerializeField] private GameObject fireballPrefab;
+        private GameObject fireball;
         
         private void Start()
         {
@@ -27,7 +29,18 @@ namespace Scenes
                 RaycastHit hit;
                 if (Physics.SphereCast(ray, .75f, out hit))
                 {
-                    if (hit.distance < obstacleRange)
+                    GameObject hitObject = hit.transform.gameObject;
+                    if (hitObject.GetComponent<PlayerCharacter>())
+                    {
+                        if(fireball == null)
+                        {
+                            fireball = Instantiate(fireballPrefab) as GameObject;
+                            fireball.transform.position = transform.TransformPoint(Vector3.forward * 1.5f);
+                            fireball.transform.rotation = transform.rotation;
+                        }
+                    }
+                        
+                    else if (hit.distance < obstacleRange)
                     {
                         float angle = Random.Range(-110, 110);
                         transform.Rotate(0, angle, 0);

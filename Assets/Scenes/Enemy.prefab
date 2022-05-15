@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 929430901545847393}
   - component: {fileID: 929430901545847394}
   - component: {fileID: 929430901545847395}
-  - component: {fileID: 929430901545847404}
-  - component: {fileID: 929430901545847399}
+  - component: {fileID: -6349434893422524530}
+  - component: {fileID: -861439261531388715}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -99,7 +99,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &929430901545847404
+--- !u!114 &-6349434893422524530
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cee62882dec544e5a94381044966863, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &929430901545847399
+--- !u!114 &-861439261531388715
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -125,3 +125,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   obstacleRange: 5
+  fireballPrefab: {fileID: 4530737720247714551, guid: f79638ebc626d4e4b939911c8866b79b, type: 3}

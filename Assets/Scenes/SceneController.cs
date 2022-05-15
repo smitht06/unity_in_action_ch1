@@ -17,9 +17,11 @@ public class SceneController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        enemy = Instantiate(enemyPrefab) as GameObject;
-        enemy.transform.position = new Vector3(0, 1, 0);
-        float angle = Random.Range(0, 360);
-        enemy.transform.Rotate(0, angle, 0);
+        if (enemy == null){
+            enemy = Instantiate(enemyPrefab) as GameObject;
+            enemy.transform.position = new Vector3(0, 1, 0);
+            float angle = Random.Range(0, 360);
+            enemy.transform.Rotate(0, angle, 0);
+        }
     }
 }
